@@ -15,7 +15,7 @@ public class Main {
         System.out.println("Digite a idade do professor");
         p.setIdade(Scanner.nextInt());
         System.out.println("Digite a especializacao do professor");
-        p.setEspecializacao(Scanner.nextLine());
+        p.setEspecializacao(Scanner.next());
 
 
 
