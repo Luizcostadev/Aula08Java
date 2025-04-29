@@ -9,6 +9,8 @@ public class Main {
     public static void main(String[] args) {
         ProfessorController professorController = new ProfessorController();
         Professor p = new Professor();
+        Scanner scanner = new Scanner(System.in);
+
 
         System.out.println("Digite o nome do professor");
         p.setNome(Scanner.next());
